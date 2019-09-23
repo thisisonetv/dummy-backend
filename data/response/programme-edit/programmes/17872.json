@@ -1,0 +1,995 @@
+{
+  "data": {
+    "id": "17872",
+    "type": "programmes",
+    "links": {
+      "self": "https://api-rtv.staging.rawnet.one/programmes/17872"
+    },
+    "attributes": {
+      "title": "Sara test programme April (3)",
+      "introduction": "this is an intro",
+      "description": "<p><em>this is a long description</em> this is a<u> long description this is a long description</u> this is a long description this is a long description this is a long description this is a long description this is a long description this is a long description this is a long description this is a long description this is a long description this is a long description this is a <strong>long description this is a long description this is a long description this is a long description this is a long description this is a long description </strong></p><ol><li>this is a long description</li><li>this is a long description</li><li>this is a long description</li><li>this is a long description</li><li>this is a long description</li><li>this is a long description</li></ol>",
+      "short-description": "this is an intro",
+      "production-start": "2021-01-01",
+      "production-end": "2022-01-01",
+      "active": true,
+      "number-of-series": 3,
+      "number-of-episodes": 2,
+      "data": {},
+      "pdf-id": null,
+      "promo-video-id": 29264,
+      "show-related-programmes": false,
+      "thumbnail": {
+        "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/thumbnail/17872/reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg",
+        "admin_preview": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/thumbnail/17872/admin_preview_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        },
+        "admin_thumb": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/thumbnail/17872/admin_thumb_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        },
+        "small": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/thumbnail/17872/small_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        },
+        "medium": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/thumbnail/17872/medium_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        },
+        "large": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/thumbnail/17872/large_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        },
+        "opt": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/thumbnail/17872/opt_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        }
+      },
+      "publish-date": null,
+      "logo": {
+        "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/logo/17872/reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg",
+        "admin_preview": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/logo/17872/admin_preview_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        },
+        "admin_thumb": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/logo/17872/admin_thumb_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        },
+        "opt": {
+          "url": "https://d2tl1tp3b9ogft.cloudfront.net/rtv/uploads/programme/logo/17872/opt_reljerjtherojhterhtoieruhtoiuerwhtiuewrhtiouehrituhgeriytgeirtgierytgiergtieyrgtiyergtiergtyertgertgieyrgtieyrtgieyrgtieyrgtieyrtgierytgieyrtgierytgieruhtoeruhtoeruhtoiuerhtiuerhtiuerhtiuerhtiuerh.jpg"
+        }
+      }
+    },
+    "relationships": {
+      "custom-attributes": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/custom-attributes",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/custom-attributes"
+        },
+        "data": [
+          {
+            "type": "custom-attributes",
+            "id": "58501"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58243"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58244"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58245"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58246"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58247"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58248"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58249"
+          },
+          {
+            "type": "custom-attributes",
+            "id": "58250"
+          }
+        ]
+      },
+      "genres": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/genres",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/genres"
+        },
+        "data": [
+          {
+            "type": "genres",
+            "id": "1"
+          },
+          {
+            "type": "genres",
+            "id": "4"
+          },
+          {
+            "type": "genres",
+            "id": "5"
+          }
+        ]
+      },
+      "languages": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/languages",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/languages"
+        },
+        "data": []
+      },
+      "production-companies": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/production-companies",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/production-companies"
+        },
+        "data": []
+      },
+      "qualities": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/qualities",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/qualities"
+        },
+        "data": []
+      },
+      "related-programmes": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/related-programmes",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/related-programmes"
+        },
+        "data": []
+      },
+      "series": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/series",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/series"
+        },
+        "data": [
+          {
+            "type": "series",
+            "id": "6987"
+          },
+          {
+            "type": "series",
+            "id": "6988"
+          },
+          {
+            "type": "series",
+            "id": "6989"
+          }
+        ]
+      },
+      "videos": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/videos",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/videos"
+        },
+        "data": [
+          {
+            "type": "videos",
+            "id": "29254"
+          },
+          {
+            "type": "videos",
+            "id": "29264"
+          },
+          {
+            "type": "videos",
+            "id": "29265"
+          },
+          {
+            "type": "videos",
+            "id": "29266"
+          },
+          {
+            "type": "videos",
+            "id": "29267"
+          }
+        ]
+      },
+      "video-banner": {
+        "links": {
+          "self": "https://api-rtv.staging.rawnet.one/programmes/17872/relationships/video-banner",
+          "related": "https://api-rtv.staging.rawnet.one/programmes/17872/video-banner"
+        },
+        "data": {
+          "type": "videos",
+          "id": "1280"
+        }
+      }
+    }
+  },
+  "included": [
+    {
+      "id": "58501",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58501"
+      },
+      "attributes": {
+        "value": "England",
+        "position": 9
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58501/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58501/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "202"
+          }
+        }
+      }
+    },
+    {
+      "id": "58243",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58243"
+      },
+      "attributes": {
+        "value": "Scripted",
+        "position": 1
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58243/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58243/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "193"
+          }
+        }
+      }
+    },
+    {
+      "id": "58244",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58244"
+      },
+      "attributes": {
+        "value": true,
+        "position": 2
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58244/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58244/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "186"
+          }
+        }
+      }
+    },
+    {
+      "id": "58245",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58245"
+      },
+      "attributes": {
+        "value": true,
+        "position": 3
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58245/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58245/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "194"
+          }
+        }
+      }
+    },
+    {
+      "id": "58246",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58246"
+      },
+      "attributes": {
+        "value": "Games of thrones",
+        "position": 4
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58246/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58246/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "195"
+          }
+        }
+      }
+    },
+    {
+      "id": "58247",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58247"
+      },
+      "attributes": {
+        "value": true,
+        "position": 5
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58247/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58247/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "196"
+          }
+        }
+      }
+    },
+    {
+      "id": "58248",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58248"
+      },
+      "attributes": {
+        "value": "18+",
+        "position": 6
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58248/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58248/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "2"
+          }
+        }
+      }
+    },
+    {
+      "id": "58249",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58249"
+      },
+      "attributes": {
+        "value": "Format",
+        "position": 7
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58249/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58249/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "192"
+          }
+        }
+      }
+    },
+    {
+      "id": "58250",
+      "type": "custom-attributes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58250"
+      },
+      "attributes": {
+        "value": "London",
+        "position": 8
+      },
+      "relationships": {
+        "custom-attribute-type": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attributes/58250/relationships/custom-attribute-type",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attributes/58250/custom-attribute-type"
+          },
+          "data": {
+            "type": "custom-attribute-types",
+            "id": "9"
+          }
+        }
+      }
+    },
+    {
+      "id": "202",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/202"
+      },
+      "attributes": {
+        "name": "Territory of origin",
+        "attribute-type": "String",
+        "related-type": "Programme",
+        "config": {
+          "values": [],
+          "filterable": false,
+          "limitValues": false,
+          "displayOnApp": false,
+          "displayOnFrontend": true
+        },
+        "position": 38
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/202/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/202/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/202/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/202/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "193",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/193"
+      },
+      "attributes": {
+        "name": "Scripted / Non scripted",
+        "attribute-type": "String",
+        "related-type": "Programme",
+        "config": {
+          "values": [
+            "Scripted",
+            "Non Scripted",
+            ""
+          ],
+          "filterable": true,
+          "limitValues": true,
+          "displayOnApp": false,
+          "displayOnFrontend": true
+        },
+        "position": 31
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/193/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/193/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/193/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/193/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "186",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/186"
+      },
+      "attributes": {
+        "name": "New Release",
+        "attribute-type": "Boolean",
+        "related-type": "Programme",
+        "config": {
+          "values": [],
+          "filterable": true,
+          "limitValues": false,
+          "displayOnApp": false,
+          "displayOnFrontend": true
+        },
+        "position": 6
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/186/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/186/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/186/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/186/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "194",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/194"
+      },
+      "attributes": {
+        "name": "Very Long",
+        "attribute-type": "Boolean",
+        "related-type": "Programme",
+        "config": {
+          "values": [],
+          "filterable": false,
+          "limitValues": false,
+          "displayOnApp": false,
+          "displayOnFrontend": true
+        },
+        "position": 32
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/194/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/194/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/194/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/194/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "195",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/195"
+      },
+      "attributes": {
+        "name": "Richard Dom",
+        "attribute-type": "String",
+        "related-type": "Programme",
+        "config": {
+          "values": [],
+          "filterable": false,
+          "limitValues": false,
+          "displayOnApp": true,
+          "displayOnFrontend": false
+        },
+        "position": 25
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/195/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/195/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/195/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/195/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "196",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/196"
+      },
+      "attributes": {
+        "name": "Sara test boolean",
+        "attribute-type": "Boolean",
+        "related-type": "Programme",
+        "config": {
+          "values": [],
+          "filterable": false,
+          "limitValues": false,
+          "displayOnApp": false,
+          "displayOnFrontend": true
+        },
+        "position": 33
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/196/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/196/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/196/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/196/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/2"
+      },
+      "attributes": {
+        "name": "Dave's rating",
+        "attribute-type": "String",
+        "related-type": "Programme",
+        "config": {
+          "values": [],
+          "filterable": false,
+          "limitValues": false,
+          "displayOnApp": true,
+          "displayOnFrontend": true
+        },
+        "position": 4
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/2/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/2/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/2/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/2/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "192",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/192"
+      },
+      "attributes": {
+        "name": "Format / Finished tape",
+        "attribute-type": "String",
+        "related-type": "Programme",
+        "config": {
+          "values": [
+            "Format",
+            "Finished Tape",
+            ""
+          ],
+          "filterable": true,
+          "limitValues": true,
+          "displayOnApp": false,
+          "displayOnFrontend": true
+        },
+        "position": 2
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/192/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/192/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/192/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/192/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "9",
+      "type": "custom-attribute-types",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/9"
+      },
+      "attributes": {
+        "name": "Location",
+        "attribute-type": "String",
+        "related-type": "Programme",
+        "config": {
+          "values": [],
+          "filterable": false,
+          "limitValues": false,
+          "displayOnApp": false,
+          "displayOnFrontend": false
+        },
+        "position": 8
+      },
+      "relationships": {
+        "customer": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/9/relationships/customer",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/9/customer"
+          }
+        },
+        "custom-attributes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/custom-attribute-types/9/relationships/custom-attributes",
+            "related": "https://api-rtv.staging.rawnet.one/custom-attribute-types/9/custom-attributes"
+          }
+        }
+      }
+    },
+    {
+      "id": "1",
+      "type": "genres",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/genres/1"
+      },
+      "attributes": {
+        "name": "Comedy"
+      }
+    },
+    {
+      "id": "4",
+      "type": "genres",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/genres/4"
+      },
+      "attributes": {
+        "name": "Entertainment"
+      }
+    },
+    {
+      "id": "5",
+      "type": "genres",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/genres/5"
+      },
+      "attributes": {
+        "name": "Reality"
+      }
+    },
+    {
+      "id": "6987",
+      "type": "series",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/series/6987"
+      },
+      "attributes": {
+        "name": "English season"
+      },
+      "relationships": {
+        "episodes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/series/6987/relationships/episodes",
+            "related": "https://api-rtv.staging.rawnet.one/series/6987/episodes"
+          },
+          "data": [
+            {
+              "type": "episodes",
+              "id": "14856"
+            }
+          ]
+        },
+        "videos": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/series/6987/relationships/videos",
+            "related": "https://api-rtv.staging.rawnet.one/series/6987/videos"
+          },
+          "data": [
+            {
+              "type": "videos",
+              "id": "29211"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6988",
+      "type": "series",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/series/6988"
+      },
+      "attributes": {
+        "name": "Spanish season"
+      },
+      "relationships": {
+        "episodes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/series/6988/relationships/episodes",
+            "related": "https://api-rtv.staging.rawnet.one/series/6988/episodes"
+          },
+          "data": []
+        },
+        "videos": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/series/6988/relationships/videos",
+            "related": "https://api-rtv.staging.rawnet.one/series/6988/videos"
+          },
+          "data": [
+            {
+              "type": "videos",
+              "id": "29212"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6989",
+      "type": "series",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/series/6989"
+      },
+      "attributes": {
+        "name": "French season"
+      },
+      "relationships": {
+        "episodes": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/series/6989/relationships/episodes",
+            "related": "https://api-rtv.staging.rawnet.one/series/6989/episodes"
+          },
+          "data": []
+        },
+        "videos": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/series/6989/relationships/videos",
+            "related": "https://api-rtv.staging.rawnet.one/series/6989/videos"
+          },
+          "data": [
+            {
+              "type": "videos",
+              "id": "29213"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "14856",
+      "type": "episodes",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/episodes/14856"
+      },
+      "attributes": {
+        "name": "awdasd"
+      },
+      "relationships": {
+        "videos": {
+          "links": {
+            "self": "https://api-rtv.staging.rawnet.one/episodes/14856/relationships/videos",
+            "related": "https://api-rtv.staging.rawnet.one/episodes/14856/videos"
+          },
+          "data": [
+            {
+              "type": "videos",
+              "id": "29271"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "29271",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29271"
+      },
+      "attributes": {
+        "name": "awdasdawd",
+        "restricted": true
+      }
+    },
+    {
+      "id": "29211",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29211"
+      },
+      "attributes": {
+        "name": "English video 1",
+        "restricted": true
+      }
+    },
+    {
+      "id": "29212",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29212"
+      },
+      "attributes": {
+        "name": "Spanish video 1",
+        "restricted": true
+      }
+    },
+    {
+      "id": "29213",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29213"
+      },
+      "attributes": {
+        "name": "French video 1",
+        "restricted": true
+      }
+    },
+    {
+      "id": "29254",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29254"
+      },
+      "attributes": {
+        "name": "restricted vid",
+        "restricted": true
+      }
+    },
+    {
+      "id": "29264",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29264"
+      },
+      "attributes": {
+        "name": "a new video",
+        "restricted": false
+      }
+    },
+    {
+      "id": "29265",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29265"
+      },
+      "attributes": {
+        "name": "StagingTestLarge",
+        "restricted": false
+      }
+    },
+    {
+      "id": "29266",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29266"
+      },
+      "attributes": {
+        "name": "test",
+        "restricted": true
+      }
+    },
+    {
+      "id": "29267",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/29267"
+      },
+      "attributes": {
+        "name": "test",
+        "restricted": true
+      }
+    },
+    {
+      "id": "1280",
+      "type": "videos",
+      "links": {
+        "self": "https://api-rtv.staging.rawnet.one/videos/1280"
+      },
+      "attributes": {
+        "name": "order 1",
+        "restricted": false
+      }
+    }
+  ]
+}

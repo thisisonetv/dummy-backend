@@ -21,7 +21,12 @@ const urlToFolderPath = (url, folderPath = []) => {
 };
 
 const read = (filePath) => {
-  return fs.readJsonSync(path.join(BASE_PATH, filePath));
+  try {
+    return fs.readJsonSync(path.join(BASE_PATH, filePath));
+  } catch (error) {
+    // ignore error - file does not exist
+  }
+  return null;
 };
 
 const write = (filePath, body) => {
