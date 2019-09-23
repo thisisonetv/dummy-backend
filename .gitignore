@@ -60,6 +60,6 @@ typings/
 # next.js build output
 .next
 
-# data/request/
-# data/response/
-# data/results/
+data/request/
+data/response/
+data/results/
