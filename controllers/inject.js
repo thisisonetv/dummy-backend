@@ -1,12 +1,14 @@
-const fileManager = require('../utils/fileManager');
+const {
+  makeJSONResponse,
+} = require('../utils/jason');
+
+const {
+  readResultsFile,
+} = require('../utils/fileManager');
 
 const results = (req, res, next) => {
-  const folderPath = [...req.locals.folderPath] || [];
-  folderPath.unshift('results');
-  const resultContents = fileManager.read(fileManager.urlToFolderPath(req.url, folderPath));
-  if (resultContents) {
-    res.locals.response = resultContents;
-  }
+  const resultContents = readResultsFile(req);
+  res.locals.response = makeJSONResponse(resultContents);
   next();
 };
 

@@ -1,4 +1,5 @@
-const buildQueryString = require('d8-jsonapi-querystring').buildQueryString;
+const bqs = require('d8-jsonapi-querystring');
+const { buildQueryString } = bqs;
 
 const isNumber = (value) => {
   const num = Number.parseInt(value, 10);
