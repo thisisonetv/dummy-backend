@@ -1,13 +1,13 @@
 const axios = require('axios');
 
 const logErrorStatus = (str, error, next) => {
-  const { response } = error;
+  const response = error.response || {};
   console.log(`Controllers: backend: ${str} - `, response.status, response.statusText);
   next(error);
 }
 
 const get = async (req, res, next) => {
-  console.log('TCL: -> GET: ', req.url);
+  console.log('API: -> GET: ', req.url);
   try {
     const response = await axios({
       url: `${req.headers.devapiurl}${req.url}`,
@@ -22,7 +22,7 @@ const get = async (req, res, next) => {
 };
 
 const post = async (req, res, next) => {
-  console.log('TCL: -> POST: ', req.url);
+  console.log('API: -> POST: ', req.url);
   try {
     const response = await axios({
       url: `${req.headers.devapiurl}${req.url}`,
@@ -39,7 +39,7 @@ const post = async (req, res, next) => {
 }
 
 const patch = async (req, res, next) => {
-  console.log('TCL: -> PATCH: ', req.url);
+  console.log('API: -> PATCH: ', req.url);
   try {
     const response = await axios({
       url: `${req.headers.devapiurl}${req.url}`,
@@ -55,7 +55,7 @@ const patch = async (req, res, next) => {
 };
 
 const del = async (req, res, next) => {
-  console.log('TCL: -> DELETE: ', req.url);
+  console.log('API: -> DELETE: ', req.url);
   try {
     const response = await axios({
       url: `${req.headers.devapiurl}${req.url}`,

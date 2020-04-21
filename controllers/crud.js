@@ -25,6 +25,9 @@ const useFileName = (req, fileName = '') => {
 const create = (req, res, next) => {
   useFileName(req, 'all');
   const resultContents = readResultsFile(req);
+  console.log("TCL: create -> req.params", req.params)
+  console.log("TCL: create -> req.query", req.query)
+  console.log("TCL: create -> req.body", JSON.stringify(req.body, null, 2))
   if (!resultContents.data) resultContents.data = [];
   resultContents.data.push({
     ...req.body.data,

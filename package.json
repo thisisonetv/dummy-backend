@@ -16,6 +16,7 @@
     "fs-extra": "^8.1.0",
     "kitsu": "^7.0.4",
     "nodemon": "^1.19.2",
-    "querystring": "^0.2.0"
+    "querystring": "^0.2.0",
+    "sockjs": "^0.3.20"
   }
 }
