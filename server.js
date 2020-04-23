@@ -22,7 +22,11 @@ const snapshot = require('./controllers/snapshot');
 const inject = require('./controllers/inject');
 const crud = require('./controllers/crud');
 
-app.use(cors());
+app.use(cors({
+  origin: 'http://0.0.0.0:8080',
+  credentials: true
+}));
+
 app.use(bodyParser.json({
   type: 'application/vnd.api+json',
   limit: '50mb',
@@ -32,30 +36,48 @@ app.use(backend.createBackEndHeaders);
 
 /*********   SOCKETS  ***********/
 
-
 const clients = {};
 
 const broadcast = (message) => {
   // iterate through each client in clients object
   for (const client in clients) {
+    console.log("broadcast -> client", client)
     // send the message to that client
     clients[client].write(JSON.stringify(message));
   }
 }
-
-// create sockjs server
-const sockjs_chat = sockjs.createServer();
+// on new connection event
+var echo = sockjs.createServer();
 
 // on new connection event
-sockjs_chat.on('connection', (conn) => {
+echo.on('connection', (conn) => {
 
   // add this client to clients object
   clients[conn.id] = conn;
 
   // on receive new data from client event
   conn.on('data', (message) => {
-    console.log(message);
-    broadcast(JSON.parse(message));
+    console.log('message recieved:', conn.id, message.type);
+    switch(message.type) {
+      case 'VIDEO_CLIENT_READY': {
+        console.log('VIDEO CLIENT READY....');
+        // this should be waiting for all clients to report ready or a max time reached..
+        // should not halt if one client crashes.
+        // then report that all clients are ready..
+        broadcast(JSON.parse({
+          type: 'VIDEO_ALL_READY'
+        }));
+        break;
+      }
+      case 'VIDEO_TRACK_POSITION': {
+        waitingForClients = {...clients};
+        broadcast(JSON.parse(message));
+        break;
+      }
+      default: {
+        broadcast(JSON.parse(message));
+      }
+    }
   });
 
   // on connection close event
@@ -126,12 +148,17 @@ app.delete('/*',
   },
 );
 
+
 const server = http.createServer(app);
-sockjs_chat.installHandlers(server, {prefix:'/chat'});
+echo.installHandlers(server, { prefix:'/chat' });
 server.listen(3003, '0.0.0.0', () => {
   console.log('Server listening on port 3003');
 })
 
 
 // app.listen(3003, () => {
+// });
+
+// server.listen(3003, () => {
+//   console.log(`Server started on port 3003`);
 // });
