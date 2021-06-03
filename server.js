@@ -36,56 +36,56 @@ app.use(backend.createBackEndHeaders);
 
 /*********   SOCKETS  ***********/
 
-const clients = {};
+// const clients = {};
 
-const broadcast = (message) => {
-  // iterate through each client in clients object
-  for (const client in clients) {
-    console.log("broadcast -> client", client)
-    // send the message to that client
-    clients[client].write(JSON.stringify(message));
-  }
-}
-// on new connection event
-var echo = sockjs.createServer();
+// const broadcast = (message) => {
+//   // iterate through each client in clients object
+//   for (const client in clients) {
+//     console.log("broadcast -> client", client)
+//     // send the message to that client
+//     clients[client].write(JSON.stringify(message));
+//   }
+// }
+// // on new connection event
+// var echo = sockjs.createServer();
 
-// on new connection event
-echo.on('connection', (conn) => {
+// // on new connection event
+// echo.on('connection', (conn) => {
 
-  // add this client to clients object
-  clients[conn.id] = conn;
+//   // add this client to clients object
+//   clients[conn.id] = conn;
 
-  // on receive new data from client event
-  conn.on('data', (message) => {
-    console.log('message recieved:', conn.id, message.type);
-    switch(message.type) {
-      case 'VIDEO_CLIENT_READY': {
-        console.log('VIDEO CLIENT READY....');
-        // this should be waiting for all clients to report ready or a max time reached..
-        // should not halt if one client crashes.
-        // then report that all clients are ready..
-        broadcast(JSON.parse({
-          type: 'VIDEO_ALL_READY'
-        }));
-        break;
-      }
-      case 'VIDEO_TRACK_POSITION': {
-        waitingForClients = {...clients};
-        broadcast(JSON.parse(message));
-        break;
-      }
-      default: {
-        broadcast(JSON.parse(message));
-      }
-    }
-  });
+//   // on receive new data from client event
+//   conn.on('data', (message) => {
+//     console.log('message recieved:', conn.id, message.type);
+//     switch(message.type) {
+//       case 'VIDEO_CLIENT_READY': {
+//         console.log('VIDEO CLIENT READY....');
+//         // this should be waiting for all clients to report ready or a max time reached..
+//         // should not halt if one client crashes.
+//         // then report that all clients are ready..
+//         broadcast(JSON.parse({
+//           type: 'VIDEO_ALL_READY'
+//         }));
+//         break;
+//       }
+//       case 'VIDEO_TRACK_POSITION': {
+//         waitingForClients = {...clients};
+//         broadcast(JSON.parse(message));
+//         break;
+//       }
+//       default: {
+//         broadcast(JSON.parse(message));
+//       }
+//     }
+//   });
 
-  // on connection close event
-  conn.on('close', () => {
-    delete clients[conn.id];
-  });
+//   // on connection close event
+//   conn.on('close', () => {
+//     delete clients[conn.id];
+//   });
 
-});
+// });
 
 
 /********************************/
@@ -110,6 +110,49 @@ echo.on('connection', (conn) => {
 *  );
 */
 /********* Add Custom routes here... **********/
+
+// app.post(['/asset-items'],
+//   (req, res) => {
+//     console.log('here')
+//     res.status(400).send(res.locals.response);
+//   },
+// );
+
+
+app.get(['/video-types'],
+  (req, res, next) => {
+    folderName(req, res, next, 'video-types');
+    next();
+  },
+  snapshot.request,
+  backend.get,
+  snapshot.response,
+  inject.results,
+  (req, res) => {
+    res.status(200).send(res.locals.response);
+  },
+);
+
+// app.get(['/configuration/features'],
+//   (req, res, next) => {
+//     res.status(500).send(res.locals.response);
+//   },
+// );
+
+app.get(['/news-categories', '/programme-highlights'],
+  backend.get,
+  (req, res, next) => {
+    res.status(503).send(res.locals.response);
+  },
+);
+
+
+app.get(['/pages'],
+  backend.get,
+  (req, res, next) => {
+    res.status(500).send(res.locals.response);
+  },
+);
 
 /***** Add Custom routes above here... ********/
 
@@ -148,17 +191,16 @@ app.delete('/*',
   },
 );
 
+/***** SOCKET VERSION ******/
+// const server = http.createServer(app);
+// echo.installHandlers(server, { prefix:'/chat' });
+// server.listen(3003, '0.0.0.0', () => {
+//   console.log('Server listening on port 3003');
+// })
 
-const server = http.createServer(app);
-echo.installHandlers(server, { prefix:'/chat' });
-server.listen(3003, '0.0.0.0', () => {
-  console.log('Server listening on port 3003');
-})
 
+/********** APP SERVER ************ */
 
-// app.listen(3003, () => {
-// });
-
-// server.listen(3003, () => {
-//   console.log(`Server started on port 3003`);
-// });
+app.listen(3003, () => {
+  console.log(`Server started on port 3003`);
+});
